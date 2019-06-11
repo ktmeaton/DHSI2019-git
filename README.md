@@ -84,4 +84,7 @@ Github Desktop must perform reverts one by one, and step by step in reverse chro
 8. Another new event has appeared: Revert "Didn't test this change". Select it with your mouse and you will see the code-breaking line was deleted. Our text-analysis.py has been reverted to a functional state. But we need to commit those changes.  
 9. This time, no comment is needed as the "Revert" comment has been applied. Simply click "Push origin". View on GitHub and go look at that file.  
  
-
+## Part 9. Advanced Time Travel (ie. Checkout, Revert, Reset)
+1. Advanced time travel requires command-line usage of git.  
+2. Atlassian has excellent tutorials on how to undo changes and revert to previous states of projects or specific files.  
+https://www.atlassian.com/git/tutorials/undoing-changes  
