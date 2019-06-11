@@ -76,6 +76,8 @@ User “Katherine Eaton” 1 changed file our README.md, [+] for additions being
 3. Add another line to code/text-analysis.py "This line of code is neutral."  
 (Desktop Client: Comment "This doesn't work anymore", commit push)  
 4. Change the left panel to the tab "History".  
+[**WARNING: Major error alert upcoming**]  
+Github Desktop must perform reverts one by one, and step by step in reverse chronological order. If you try to revert a commit that is NOT THE MOST RECENT commit in Github Desktop, you will generate major error that must be solved with command-line programming knowledge. If this happens and you do not have this knowledge, please delete your github project folder from your file browser and the Github Desktop client should automatically prompt you to clone your repository again. You can then restart Part 8 from Step 4.  
 5. Right click on the history event "This doesn't work anymore", select Revert This Commit.  
 6. A new event has occurred in the history: Revert "This doesn't work anymore". Select it with your mouse and you will see that the last line has been deleted (minus sign). But we have one more change to undo.  
 7. Right click on the history event "Didn't test this change", select Revert This Commit.   
