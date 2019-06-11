@@ -3,7 +3,7 @@ DHSI 2019 Git Tutorial
 
 https://ktmeaton.github.io/DHSI2019-git/  
 
-Author: Katherine Eaton 
+Author: Katherine Eaton  
 Created: 2019-06-10
 
 ## Part 1. Create a GitHub Account
