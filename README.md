@@ -153,6 +153,15 @@ git commit -m "Didn't test this change"
 git commit -m "This doesn't work anymore"
 git push origin master
 ```
+
+```
+git stash
+git checkout <commit hash>
+git branch timetravel
+git revert <commit hash>
+git checkout timetravel
+git push origin timetravel
+```
  
 **Advanced Time Travel (ie. Checkout, Revert, Reset)**  
 10. Advanced time travel requires command-line usage of git.  
