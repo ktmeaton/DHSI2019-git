@@ -7,7 +7,7 @@ Author: Katherine Eaton
 Created: 2019-06-10
 
 ## Contents
-[click on this link](#Part 11. Collaboration (Self))
+[click on this link](#Part-11.-Collaboration-(Self))  
 **Part 1.** Create a GitHub Account  
 **Part 2.** Create a Repository (ie. Cloud-Based Project)  
 **Part 3.** Web-Browser Repository Walkthrough  
