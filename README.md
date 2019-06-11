@@ -63,6 +63,13 @@ Created: 2019-06-10
 6. Select demo repository (ktmeaton/DHSI2019-git) and select **“Clone”**.  
 7. Choose the “Local path” where you want your project files to be installed to. 
 
+**Working on the command-line**
+```
+git clone https://github.com/myusername/repository
+git config --global user.email "myemail@domain.com"
+git config --global user.name "My Preferred name"
+```
+
 ## Part 6. Client GUI Walkthrough
 1. Navigation bar at the top (File, Edit, View).  
 2. Below is the repository options, first is the repository (project) selector, then the **branch** selector, then the file fetcher. Fetch is not immediately relevant to us, because fetching is what you do when you want to see what everybody else has been working on.   
@@ -140,7 +147,11 @@ Github Desktop must perform reverts one by one, and step by step in reverse chro
 
 **Working on the command-line**
 ```
-git add
+git add code/text-analysis.py 
+git commit -m "Works as expected"
+git commit -m "Didn't test this change"
+git commit -m "This doesn't work anymore"
+git push origin master
 ```
  
 **Advanced Time Travel (ie. Checkout, Revert, Reset)**  
