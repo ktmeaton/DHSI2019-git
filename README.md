@@ -15,5 +15,5 @@ Author: Katherine Eaton
 4) Give it a short description ("DHSI 2019 Git Tutorial")
 5) Decide on your privacy settings (public vs. private)
 6) Select “Initialize this repository with a README”.
-    - The README will be a text file in Markdown format and will be the landing page for your project. It's what your reading right now.
+    - The README will be a text file in Markdown format and will be the landing page for your project.
 7) Leave the other settings as the default.
