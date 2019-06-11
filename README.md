@@ -69,4 +69,9 @@ User “Katherine Eaton” 1 changed file our README.md, [+] for additions being
 10. View your files on GitHub in the web browser.  
 
 ## Part 8. Some Basic Time Travel (ie. Revert)
-1. 
+1. Add a line to the file code/text-analysis.py "This line of code works as expected."  
+(Desktop Client: Comment/Commit/Push)  
+Add another line to code/text-analysis.py "This line of code breaks the entire project!!!"  
+(Desktop Client: Comment/Commit/Push)  
+Add another line to code/text-analysis.py "This line of code is neutral."  
+(Desktop Client: Comment/Commit/Push)  
