@@ -1,12 +1,14 @@
 # DHSI2019
 DHSI 2019 Git Tutorial
 
+https://ktmeaton.github.io/DHSI2019-git/  
+
 Author: Katherine Eaton  
 
 ## Part 1. Create a GitHub Account
-1) Navigate to https://github.com/
-2) Create an account.
-3) If it doesn't automatically do so, login.
+1) Navigate to https://github.com/  
+2) Create an account.  
+3) If it doesn't automatically do so, login.  
 
 ## Part 2. Create a Repository (ie. Cloud-Based Project)
 1) Navigate to your account home (click the cat icon in the top left).
