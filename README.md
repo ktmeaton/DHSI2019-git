@@ -78,17 +78,37 @@ User “Katherine Eaton” 1 changed file our README.md, [+] for additions being
 3. Optional, add a description. Then commit to “master”.  
 4. We’ve committed our change, and now it’s prompting us to “push” this to the “origin remote”, which is git language for “would you like to sync this to the cloud?” Click “push origin”.  
 5. Now if we view on github, the README.md page has the author line we just added.  
+``
 
 ## Part 8. Adding Files  
 1. Using your file explorer, create a folder called "writing" in the git repository (same place as the README.md).  
 2. Place a document of some type in there (ex. pdf, txt, etc.) Mine will be an empty Word doc called paper.docx.  
-3. In the desktop client, comment the **commit** “create paper.docx”, commit the change, and push to the origin remote.  
+3. In the desktop client, comment the **commit** “create paper”, commit the change, and push to the origin remote.  
 4. Create folder "code" in the git repository.  
 5. Create empty text files "text-analysis.py" and "data-visualization.R" in the "code" folder.  
 6. In the desktop client, comment the  **commit** “added text analysis and viz code”, commit the change, and push to the origin remote.  7. Create folder called "data" in the git repository.  
 8. Create empty text files "raw-data.txt" and "processed-data.txt in the "data" folder.  
 9. In the desktop client, comment the  **commit** “added raw and processed data”, commit the change, and push to the origin remote. 
 10. View your files on GitHub in the web browser.  
+
+**Working on the command-line**  
+```
+git add code/paper.docx
+git commit -m "create paper"
+git push origin master
+```
+```
+git add code/text-analysis.py
+git add code/data-visualization.R
+git commit -m “added text analysis and viz code”
+git push origin master
+```
+```
+git add data/raw-data.txt
+git add/processed-data.txt
+git commit -m "“added raw and processed data”
+git push origin master
+```
 
 ## Part 9. Syncing Changes
 1. In the GitHub web browser, navigate to the file data/raw-data.txt and click the small pencil icon to edit it.  
