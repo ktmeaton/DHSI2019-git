@@ -130,4 +130,3 @@ https://www.atlassian.com/git/tutorials/undoing-changes
 10. The master branch now the file changes that were made in our self-collaboration branch.  
 11. In Github Desktop, switch the branch to master, fetch the updated changes from the origin, and pull the changes we’ve just made.  
 
-## Part 1 Create a GitHub Account
