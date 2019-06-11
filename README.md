@@ -123,19 +123,25 @@ git pull
 
 ## Part 10. Some Basic Time Travel
 1. Add a line to the file code/text-analysis.py "This line of code works as expected."  
-(Desktop Client: Comment "Works as expected", commit, push)  
+(Desktop Client: Comment "Works as expected", commit)  
 2. Add another line to code/text-analysis.py "This line of code breaks the entire project!!!"  
-(Desktop Client: Comment "Didn't test this change", commit, push)  
+(Desktop Client: Comment "Didn't test this change", commit)  
 3. Add another line to code/text-analysis.py "This line of code is neutral."  
-(Desktop Client: Comment "This doesn't work anymore", commit push)  
-4. Change the left panel to the tab "History".  
+(Desktop Client: Comment "This doesn't work anymore", commit)  
+4. Now push your changes to the remote GitHub repository.
+5. Change the left panel to the tab "History".  
 [**WARNING: Major error alert upcoming**]  
 Github Desktop must perform reverts one by one, and step by step in reverse chronological order. If you try to revert a commit that is NOT THE MOST RECENT commit in Github Desktop, you will generate major error that must be solved with command-line programming knowledge. If this happens and you do not have this knowledge, please delete your github project folder from your file browser and the Github Desktop client should automatically prompt you to clone your repository again. You can then restart Part 10 from Step 4.  
-5. Right click on the history event "This doesn't work anymore", select Revert This Commit.  
-6. A new event has occurred in the history: Revert "This doesn't work anymore". Select it with your mouse and you will see that the last line has been deleted (minus sign). But we have one more change to undo.  
-7. Right click on the history event "Didn't test this change", select Revert This Commit.   
-8. Another new event has appeared: Revert "Didn't test this change". Select it with your mouse and you will see the code-breaking line was deleted. Our text-analysis.py has been reverted to a functional state. But we need to commit those changes.  
-9. This time, no comment is needed as the "Revert" comment has been applied. Simply click "Push origin". View on GitHub and go look at that file.  
+6. Right click on the history event "This doesn't work anymore", select Revert This Commit.  
+7. A new event has occurred in the history: Revert "This doesn't work anymore". Select it with your mouse and you will see that the last line has been deleted (minus sign). But we have one more change to undo.  
+8. Right click on the history event "Didn't test this change", select Revert This Commit.   
+9. Another new event has appeared: Revert "Didn't test this change". Select it with your mouse and you will see the code-breaking line was deleted. Our text-analysis.py has been reverted to a functional state. But we need to commit those changes.  
+10. This time, no comment is needed as the "Revert" comment has been applied. Simply click "Push origin". View on GitHub and go look at that file.  
+
+**Working on the command-line**
+```
+git add
+```
  
 **Advanced Time Travel (ie. Checkout, Revert, Reset)**  
 10. Advanced time travel requires command-line usage of git.  
