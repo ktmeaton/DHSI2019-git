@@ -1,4 +1,4 @@
-# DHSI2019
+# DHSI2019-git
 DHSI 2019 Git Tutorial
 
 https://ktmeaton.github.io/DHSI2019-git/  
@@ -35,7 +35,7 @@ Author: Katherine Eaton
 ## Part 4. Install the GitHub Desktop Client 
 1. Download GithubDesktopSetup from https://desktop.github.com/  
 2. Run the Installer.  
-3. Sign in to GiHhub.com through installer.  
+3. Sign in to GitHub.com through installer.  
 4. Configure Git to your preferred name and email.  
 5. Decide on sending usage stats.  
 6. Select demo repository (ktmeaton/DHSI2019-git) and select **“Clone”**.  
@@ -68,3 +68,5 @@ User “Katherine Eaton” 1 changed file our README.md, [+] for additions being
 9. In the desktop client, comment the  **commit** “added raw and processed data”, commit the change, and push to the origin remote. 
 10. View your files on GitHub in the web browser.  
 
+## Part 8. Some Basic Time Travel (ie. Revert)
+1. 
