@@ -90,6 +90,19 @@ Github Desktop must perform reverts one by one, and step by step in reverse chro
 2. Atlassian has excellent tutorials on how to undo changes and revert to previous states of projects or specific files.  
 https://www.atlassian.com/git/tutorials/undoing-changes  
 
+## Part 10. Collaboration (Self)
+1. In Github Desktop, select the “Current Branch” dropdown menu in the top panel. Click the new branch button, and call it “self-collaboration”. Click publish branch.  
+2. Click the “View on Github” and use the “Branch: master” dropdown menu to confirm that a self-collaboration branch was created. For now, it is identical to the master branch.  
+3. The Github Desktop client now will constantly prompt you with a new option to “Create a Pull Request” which is how you would propose your changes to a collaborator (or in this case to yourself).  
+4. In your computer’s text editor, open the file code/data-visualization.R and add the line “self-collaboration proposed changes: color-blind friendly palettes for data visualization!”  
+5. In Github Desktop, comment and commit. Note that it now says “Commit to self-collaboration”. Click the button “Push origin”.  
+6. This change now exists only on the self-collaboration branch, not on the master branch. You can explore this difference on the GitHub browser if you’re interested.  
+7. Click “Create a Pull Request” which will automatically redirect us to an github in an internet browser where our proposed change is being explained. The dropdown menus indicated that branch base:master is receiving <- a change from the branch self-collaboration, and the checkmark indicates there are no conflicts.  
+8. Write an informative description of the change, then click “Create pull request”.  
+9. To accept the merging of branches, click “Merge pull request” and then “Confirm”  
+10. The master branch now the file changes that were made in our self-collaboration branch.  
+11. In Github Desktop, switch the branch to master, fetch the updated changes from the origin, and pull the changes we’ve just made.  
+
 ## Part 10. Creating a Webpage
 1. Navigate to your repository's home page on GitHub (ex. https://github.com/ktmeaton/DHSI2019-git).
 2. In the tab panel (same level as "Code"), click on Settings (Gear Icon) and scroll down to "GitHub Pages".
