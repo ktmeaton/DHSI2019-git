@@ -38,7 +38,18 @@ Author: Katherine Eaton
 3. Sign in to GiHhub.com through installer.  
 4. Configure Git to your preferred name and email.  
 5. Decide on sending usage stats.  
-6. Select demo repository (ktmeaton/DHSI2019-git) and select “Clone”.  
-7. Choose the “Local path” where you want your project files to be installed to.  
+6. Select demo repository (ktmeaton/DHSI2019-git) and select **“Clone”**.  
+7. Choose the “Local path” where you want your project files to be installed to. 
+
+
+**Part 5. Client GUI Walkthrough**
+1) Navigation bar at the top (File, Edit, View).  
+2) Below is the repository options, first is the repository (project) selector, then the **branch** selector, then the file fetcher. Fetch is not immediately relevant to us, because fetching is what you do when you want to see what everybody else has been working on.   
+3) The left panel controls what displays in the main window of the client.    
+4) Right now “changes” is selected and there are no changes to our files.  
+5) But in the history tab, something has happened. We have an “Initial **commit**”.  
+User “Katherine Eaton” 1 changed file our README.md, [+] for additions being made, and added 2 lines.	
+6) Let’s view where our local files are (and our remote files).  
+
 
 
