@@ -11,8 +11,8 @@ Author: Katherine Eaton
 3. If it doesn't automatically do so, login.  
 
 ## Part 2. Create a Repository (ie. Cloud-Based Project)
-1. Navigate to your account home (click the cat icon in the top left).  
-2. Create a new repository by clicking the green "New" box.  
+1. Navigate to your account home (click the cat icon in the top left).   
+2. Create a new repository by clicking the green "New" box.   
 3. Name your repository (ex. "DHSI2019-git").  
 4. Give it a short description ("DHSI 2019 Git Tutorial").  
 5. Decide on your privacy settings (public vs. private).  
