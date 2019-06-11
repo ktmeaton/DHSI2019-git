@@ -116,6 +116,11 @@ git push origin master
 3. In the GitHub Desktop client, make sure that “Changes” is the panel that is selected. Click the fetch origin button at the top panel next to “Current repository” and “Current branch”. The main window should pop up saying that “1 commit from the origin remote” is available.  
 4. Click “pull” to fully download that changed file. If you open up code/raw-data.txt on your local computer, you will see that it now also has our new line.  
 
+**Working on the command-line**
+```
+git pull
+```
+
 ## Part 10. Some Basic Time Travel
 1. Add a line to the file code/text-analysis.py "This line of code works as expected."  
 (Desktop Client: Comment "Works as expected", commit, push)  
