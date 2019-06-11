@@ -6,6 +6,19 @@ https://ktmeaton.github.io/DHSI2019-git/
 Author: Katherine Eaton  
 Created: 2019-06-10
 
+## Contents
+### Part 1. Create a GitHub Account
+### Part 2. Create a Repository (ie. Cloud-Based Project)
+### Part 3. Web-Browser Repository Walkthrough
+### Part 4. Creating a Webpage
+### Part 5. Install the GitHub Desktop Client 
+### Part 6. Client GUI Walkthrough
+### Part 7. Changing Files  
+### Part 8. Adding Files  
+### Part 9. Syncing Changes (Browser - Desktop)
+### Part 10. Some Basic Time Travel (ie. Revert)
+### Part 11. Collaboration (Self)
+
 ## Part 1. Create a GitHub Account
 1. Navigate to https://github.com/  
 2. Create an account.  
