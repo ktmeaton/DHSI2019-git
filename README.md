@@ -8,16 +8,16 @@ Created: 2019-06-10
 
 ## Contents 
 [Part 1.](#part-1-create-a-github-account) Create a GitHub Account  
-[Part 2.](#part-2-create-a-repository) Create a Repository 
-[Part 3.](#part-3-web-browser-repository-walkthrough) Web-Browser Repository Walkthrough  
+[Part 2.](#part-2-create-a-repository) Create a Repository  
+[Part 3.](#part-3-web-browser-repository-walkthrough) Web-Browser Repository Walkthrough   
 [Part 4.](#part-4-creating-a-webpage) Creating a Webpage  
 [Part 5.](#part-5-install-the-github-desktop-client) Install the GitHub Desktop Client  
 [Part 6.](#part-6-client-gui-walkthrough) Client GUI Walkthrough  
 [Part 7.](#part-7-changing-files) Changing Files  
 [Part 8.](#part-8-adding-files) Adding Files  
-[Part 9.](#part-9-syncing-changes) Syncing Changes 
-[Part 10.](#part-10-some-basic-time-travel) Some Basic Time Travel
-[Part 11.](#part-11-collaboration) Collaboration 
+[Part 9.](#part-9-syncing-changes) Syncing Changes   
+[Part 10.](#part-10-some-basic-time-travel) Some Basic Time Travel  
+[Part 11.](#part-11-collaboration) Collaboration   
 
 ## Part 1. Create a GitHub Account
 1. Navigate to https://github.com/  
