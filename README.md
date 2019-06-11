@@ -88,3 +88,12 @@ Github Desktop must perform reverts one by one, and step by step in reverse chro
 1. Advanced time travel requires command-line usage of git.  
 2. Atlassian has excellent tutorials on how to undo changes and revert to previous states of projects or specific files.  
 https://www.atlassian.com/git/tutorials/undoing-changes  
+
+## Part 10. Creating a Webpage
+1. Navigate to your repository's home page on GitHub (ex. https://github.com/ktmeaton/DHSI2019-git).
+2. In the tab panel (same level as "Code"), click on Settings (Gear Icon) and scroll down to "GitHub Pages".
+3. For the Source dropdown menu, select the master branch.
+4. For the website Theme Choose, pick a design layout (ex. Cayman)
+5. You now have a \_config.yml file in your home directory.
+6. And in Settings, you will also have a checkmarked “ Your site is published at https://ktmeaton.github.io/DHSI2019-git/”
+7. Check it out!
