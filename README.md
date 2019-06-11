@@ -97,3 +97,5 @@ https://www.atlassian.com/git/tutorials/undoing-changes
 4. For the website Theme Choose, pick a design layout (ex. Cayman)
 5. You now have a \_config.yml file in your home directory. Also in Settings under GitHub Pages it will be checkmarked and say “ Your site is published at https://ktmeaton.github.io/DHSI2019-git/”
 7. Check it out!
+
+## Part 11. Syncing Changes
