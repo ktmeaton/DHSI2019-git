@@ -7,7 +7,7 @@ Author: Katherine Eaton
 Created: 2019-06-10
 
 ## Contents
-[click on this link](#part-11.-collaboration-(self))  
+[click on this link](#test)  
 **Part 1.** Create a GitHub Account  
 **Part 2.** Create a Repository (ie. Cloud-Based Project)  
 **Part 3.** Web-Browser Repository Walkthrough  
@@ -130,3 +130,5 @@ https://www.atlassian.com/git/tutorials/undoing-changes
 9. To accept the merging of branches, click “Merge pull request” and then “Confirm”  
 10. The master branch now the file changes that were made in our self-collaboration branch.  
 11. In Github Desktop, switch the branch to master, fetch the updated changes from the origin, and pull the changes we’ve just made.  
+
+## Test
