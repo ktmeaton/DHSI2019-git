@@ -41,15 +41,19 @@ Author: Katherine Eaton
 6. Select demo repository (ktmeaton/DHSI2019-git) and select **“Clone”**.  
 7. Choose the “Local path” where you want your project files to be installed to. 
 
-
 **Part 5. Client GUI Walkthrough**  
-1) Navigation bar at the top (File, Edit, View).  
-2) Below is the repository options, first is the repository (project) selector, then the **branch** selector, then the file fetcher. Fetch is not immediately relevant to us, because fetching is what you do when you want to see what everybody else has been working on.   
-3) The left panel controls what displays in the main window of the client.    
-4) Right now “changes” is selected and there are no changes to our files.  
-5) But in the history tab, something has happened. We have an “Initial **commit**”.  
+1. Navigation bar at the top (File, Edit, View).  
+2. Below is the repository options, first is the repository (project) selector, then the **branch** selector, then the file fetcher. Fetch is not immediately relevant to us, because fetching is what you do when you want to see what everybody else has been working on.   
+3. The left panel controls what displays in the main window of the client.    
+4. Right now “changes” is selected and there are no changes to our files.  
+5. But in the history tab, something has happened. We have an “Initial **commit**”.  
 User “Katherine Eaton” 1 changed file our README.md, [+] for additions being made, and added 2 lines.	
-6) Let’s view where our local files are (and our remote files).  
+6. Let’s view where our local files are.  
 
-
+**Part 6. Changing Files**  
+1. Using the text editor of your choice, add the line  “Author: MyName” to your README.md file.  
+2. In GitHub Desktop, we now have Changes.  In the bottom by your profile picture, write “Add repository author” as a comment for the change you’re about to **commit**.  
+3. Optional, add a description. Then commit to “master”.  
+4. We’ve committed our change, and now it’s prompting us to “push” this to the “origin remote”, which is git language for “would you like to sync this to the cloud?” Click “push origin”.  
+5. Now if we view on github, the README.md page has the author line we just added.  
 
