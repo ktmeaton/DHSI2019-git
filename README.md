@@ -42,7 +42,7 @@ Author: Katherine Eaton
 7. Choose the “Local path” where you want your project files to be installed to. 
 
 
-**Part 5. Client GUI Walkthrough**
+**Part 5. Client GUI Walkthrough**  
 1) Navigation bar at the top (File, Edit, View).  
 2) Below is the repository options, first is the repository (project) selector, then the **branch** selector, then the file fetcher. Fetch is not immediately relevant to us, because fetching is what you do when you want to see what everybody else has been working on.   
 3) The left panel controls what displays in the main window of the client.    
