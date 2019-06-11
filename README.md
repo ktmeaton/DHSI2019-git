@@ -7,7 +7,7 @@ Author: Katherine Eaton
 Created: 2019-06-10
 
 ## Contents 
-[Part 1.](#create-a-github-account)  
+[Part 1.](#part-1.-create-a-github-account) Create a GitHub Account  
 **Part 2.** Create a Repository 
 **Part 3.** Web-Browser Repository Walkthrough  
 **Part 4.** Creating a Webpage  
