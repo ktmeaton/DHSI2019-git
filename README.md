@@ -24,7 +24,7 @@ Created: 2019-06-10
 2. Create an account.  
 3. If it doesn't automatically do so, login.  
 
-## Part 2. Create a Repository (ie. Cloud-Based Project)
+## Part 2. Create a Repository
 1. Navigate to your account home (click the cat icon in the top left).   
 2. Create a new repository by clicking the green "New" box.   
 3. Name your repository (ex. "DHSI2019-git").  
@@ -90,13 +90,13 @@ User “Katherine Eaton” 1 changed file our README.md, [+] for additions being
 9. In the desktop client, comment the  **commit** “added raw and processed data”, commit the change, and push to the origin remote. 
 10. View your files on GitHub in the web browser.  
 
-## Part 9. Syncing Changes (Browser - Desktop)
+## Part 9. Syncing Changes
 1. In the GitHub web browser, navigate to the file data/raw-data.txt and click the small pencil icon to edit it.  
 2. Add the line “Rawdataisn’tsobadright?”  
 3. In the GitHub Desktop client, make sure that “Changes” is the panel that is selected. Click the fetch origin button at the top panel next to “Current repository” and “Current branch”. The main window should pop up saying that “1 commit from the origin remote” is available.  
 4. Click “pull” to fully download that changed file. If you open up code/raw-data.txt on your local computer, you will see that it now also has our new line.  
 
-## Part 10. Some Basic Time Travel (ie. Revert)
+## Part 10. Some Basic Time Travel
 1. Add a line to the file code/text-analysis.py "This line of code works as expected."  
 (Desktop Client: Comment "Works as expected", commit, push)  
 2. Add another line to code/text-analysis.py "This line of code breaks the entire project!!!"  
@@ -117,7 +117,7 @@ Github Desktop must perform reverts one by one, and step by step in reverse chro
 11. Atlassian has excellent tutorials on how to undo changes and revert to previous states of projects or specific files.  
 https://www.atlassian.com/git/tutorials/undoing-changes  
 
-## Part 11. Collaboration (Self)
+## Part 11. Collaboration
 1. In Github Desktop, select the “Current Branch” dropdown menu in the top panel. Click the new branch button, and call it “self-collaboration”. Click publish branch.  
 2. Click the “View on Github” and use the “Branch: master” dropdown menu to confirm that a self-collaboration branch was created. For now, it is identical to the master branch.  
 3. The Github Desktop client now will constantly prompt you with a new option to “Create a Pull Request” which is how you would propose your changes to a collaborator (or in this case to yourself).  
