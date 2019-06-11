@@ -70,8 +70,16 @@ User “Katherine Eaton” 1 changed file our README.md, [+] for additions being
 
 ## Part 8. Some Basic Time Travel (ie. Revert)
 1. Add a line to the file code/text-analysis.py "This line of code works as expected."  
-(Desktop Client: Comment/Commit/Push)  
-Add another line to code/text-analysis.py "This line of code breaks the entire project!!!"  
-(Desktop Client: Comment/Commit/Push)  
-Add another line to code/text-analysis.py "This line of code is neutral."  
-(Desktop Client: Comment/Commit/Push)  
+(Desktop Client: Comment "Works as expected", commit, push)  
+2. Add another line to code/text-analysis.py "This line of code breaks the entire project!!!"  
+(Desktop Client: Comment "Didn't test this change", commit, push)  
+3. Add another line to code/text-analysis.py "This line of code is neutral."  
+(Desktop Client: Comment "This doesn't work anymore", commit push)  
+4. Change the left panel to the tab "History".  
+5. Right click on the history event "This doesn't work anymore", select Revert This Commit.  
+6. A new event has occurred in the history: Revert "This doesn't work anymore". Select it with your mouse and you will see that the last line has been deleted (minus sign). But we have one more change to undo.  
+7. Right click on the history event "Didn't test this change", select Revert This Commit.   
+8. Another new event has appeared: Revert "Didn't test this change". Select it with your mouse and you will see the code-breaking line was deleted. Our text-analysis.py has been reverted to a functional state. But we need to commit those changes.  
+9. This time, no comment is needed as the "Revert" comment has been applied. Simply click "Push origin". View on GitHub and go look at that file.  
+ 
+
