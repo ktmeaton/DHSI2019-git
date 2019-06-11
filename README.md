@@ -33,7 +33,15 @@ Created: 2019-06-10
 6. Buttons "Create new file/Upload file/Find File" simplistic file management in the web browser. There are better options we will demonstrate later, but it works all the same.  
 7. Button "Clone or download": this button is to download an entire repository to your computer. You can use the "Download Zip" option if you're interested in using the repository content without developing or contributing. "Cloning" is what we will be doing later in this tutorial to download files but keep them in a format that still allows for git tracking and version control.     
 
-## Part 4. Install the GitHub Desktop Client 
+## Part 4. Creating a Webpage
+1. Navigate to your repository's home page on GitHub (ex. https://github.com/ktmeaton/DHSI2019-git).
+2. In the tab panel (same level as "Code"), click on Settings (Gear Icon) and scroll down to "GitHub Pages".
+3. For the Source dropdown menu, select the master branch.
+4. For the website Theme Choose, pick a design layout (ex. Cayman)
+5. You now have a \_config.yml file in your home directory. Also in Settings under GitHub Pages it will be checkmarked and say “ Your site is published at https://ktmeaton.github.io/DHSI2019-git/”
+7. Check it out!
+
+## Part 5. Install the GitHub Desktop Client 
 1. Download GithubDesktopSetup from https://desktop.github.com/  
 2. Run the Installer.  
 3. Sign in to GitHub.com through installer.  
@@ -42,7 +50,7 @@ Created: 2019-06-10
 6. Select demo repository (ktmeaton/DHSI2019-git) and select **“Clone”**.  
 7. Choose the “Local path” where you want your project files to be installed to. 
 
-## Part 5. Client GUI Walkthrough
+## Part 6. Client GUI Walkthrough
 1. Navigation bar at the top (File, Edit, View).  
 2. Below is the repository options, first is the repository (project) selector, then the **branch** selector, then the file fetcher. Fetch is not immediately relevant to us, because fetching is what you do when you want to see what everybody else has been working on.   
 3. The left panel controls what displays in the main window of the client.    
@@ -51,14 +59,14 @@ Created: 2019-06-10
 User “Katherine Eaton” 1 changed file our README.md, [+] for additions being made, and added 2 lines.	
 6. Let’s view where our local files are.  
 
-## Part 6. Changing Files  
+## Part 7. Changing Files  
 1. Using the text editor of your choice, add the line  “Author: MyName” to your README.md file.  
 2. In GitHub Desktop, we now have Changes.  In the bottom by your profile picture, write “Add repository author” as a comment for the change you’re about to **commit**.  
 3. Optional, add a description. Then commit to “master”.  
 4. We’ve committed our change, and now it’s prompting us to “push” this to the “origin remote”, which is git language for “would you like to sync this to the cloud?” Click “push origin”.  
 5. Now if we view on github, the README.md page has the author line we just added.  
 
-## Part 7. Adding Files  
+## Part 8. Adding Files  
 1. Using your file explorer, create a folder called "writing" in the git repository (same place as the README.md).  
 2. Place a document of some type in there (ex. pdf, txt, etc.) Mine will be an empty Word doc called paper.docx.  
 3. In the desktop client, comment the **commit** “create paper.docx”, commit the change, and push to the origin remote.  
@@ -69,7 +77,13 @@ User “Katherine Eaton” 1 changed file our README.md, [+] for additions being
 9. In the desktop client, comment the  **commit** “added raw and processed data”, commit the change, and push to the origin remote. 
 10. View your files on GitHub in the web browser.  
 
-## Part 8. Some Basic Time Travel (ie. Revert)
+## Part 9. Syncing Changes (Browser - Desktop)
+1. In the GitHub web browser, navigate to the file data/raw-data.txt and click the small pencil icon to edit it.  
+2. Add the line “Rawdataisn’tsobadright?”  
+3. In the GitHub Desktop client, make sure that “Changes” is the panel that is selected. Click the fetch origin button at the top panel next to “Current repository” and “Current branch”. The main window should pop up saying that “1 commit from the origin remote” is available.  
+4. Click “pull” to fully download that changed file. If you open up code/raw-data.txt on your local computer, you will see that it now also has our new line.  
+
+## Part 10. Some Basic Time Travel (ie. Revert)
 1. Add a line to the file code/text-analysis.py "This line of code works as expected."  
 (Desktop Client: Comment "Works as expected", commit, push)  
 2. Add another line to code/text-analysis.py "This line of code breaks the entire project!!!"  
@@ -78,19 +92,19 @@ User “Katherine Eaton” 1 changed file our README.md, [+] for additions being
 (Desktop Client: Comment "This doesn't work anymore", commit push)  
 4. Change the left panel to the tab "History".  
 [**WARNING: Major error alert upcoming**]  
-Github Desktop must perform reverts one by one, and step by step in reverse chronological order. If you try to revert a commit that is NOT THE MOST RECENT commit in Github Desktop, you will generate major error that must be solved with command-line programming knowledge. If this happens and you do not have this knowledge, please delete your github project folder from your file browser and the Github Desktop client should automatically prompt you to clone your repository again. You can then restart Part 8 from Step 4.  
+Github Desktop must perform reverts one by one, and step by step in reverse chronological order. If you try to revert a commit that is NOT THE MOST RECENT commit in Github Desktop, you will generate major error that must be solved with command-line programming knowledge. If this happens and you do not have this knowledge, please delete your github project folder from your file browser and the Github Desktop client should automatically prompt you to clone your repository again. You can then restart Part 10 from Step 4.  
 5. Right click on the history event "This doesn't work anymore", select Revert This Commit.  
 6. A new event has occurred in the history: Revert "This doesn't work anymore". Select it with your mouse and you will see that the last line has been deleted (minus sign). But we have one more change to undo.  
 7. Right click on the history event "Didn't test this change", select Revert This Commit.   
 8. Another new event has appeared: Revert "Didn't test this change". Select it with your mouse and you will see the code-breaking line was deleted. Our text-analysis.py has been reverted to a functional state. But we need to commit those changes.  
 9. This time, no comment is needed as the "Revert" comment has been applied. Simply click "Push origin". View on GitHub and go look at that file.  
  
-## Part 9. Advanced Time Travel (ie. Checkout, Revert, Reset)
-1. Advanced time travel requires command-line usage of git.  
-2. Atlassian has excellent tutorials on how to undo changes and revert to previous states of projects or specific files.  
+**Advanced Time Travel (ie. Checkout, Revert, Reset)**  
+10. Advanced time travel requires command-line usage of git.  
+11. Atlassian has excellent tutorials on how to undo changes and revert to previous states of projects or specific files.  
 https://www.atlassian.com/git/tutorials/undoing-changes  
 
-## Part 10. Collaboration (Self)
+## Part 11. Collaboration (Self)
 1. In Github Desktop, select the “Current Branch” dropdown menu in the top panel. Click the new branch button, and call it “self-collaboration”. Click publish branch.  
 2. Click the “View on Github” and use the “Branch: master” dropdown menu to confirm that a self-collaboration branch was created. For now, it is identical to the master branch.  
 3. The Github Desktop client now will constantly prompt you with a new option to “Create a Pull Request” which is how you would propose your changes to a collaborator (or in this case to yourself).  
@@ -102,17 +116,3 @@ https://www.atlassian.com/git/tutorials/undoing-changes
 9. To accept the merging of branches, click “Merge pull request” and then “Confirm”  
 10. The master branch now the file changes that were made in our self-collaboration branch.  
 11. In Github Desktop, switch the branch to master, fetch the updated changes from the origin, and pull the changes we’ve just made.  
-
-## Part 10. Creating a Webpage
-1. Navigate to your repository's home page on GitHub (ex. https://github.com/ktmeaton/DHSI2019-git).
-2. In the tab panel (same level as "Code"), click on Settings (Gear Icon) and scroll down to "GitHub Pages".
-3. For the Source dropdown menu, select the master branch.
-4. For the website Theme Choose, pick a design layout (ex. Cayman)
-5. You now have a \_config.yml file in your home directory. Also in Settings under GitHub Pages it will be checkmarked and say “ Your site is published at https://ktmeaton.github.io/DHSI2019-git/”
-7. Check it out!
-
-## Part 11. Syncing Changes (Browser - Desktop)
-1. In the GitHub web browser, navigate to the file data/raw-data.txt and click the small pencil icon to edit it.  
-2. Add the line “Rawdataisn’tsobadright?”  
-3. In the GitHub Desktop client, make sure that “Changes” is the panel that is selected. Click the fetch origin button at the top panel next to “Current repository” and “Current branch”. The main window should pop up saying that “1 commit from the origin remote” is available.  
-4. Click “pull” to fully download that changed file. If you open up code/raw-data.txt on your local computer, you will see that it now also has our new line.  
