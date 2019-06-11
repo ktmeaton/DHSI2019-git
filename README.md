@@ -21,10 +21,10 @@ Author: Katherine Eaton
 ## Part 3. Web-Browser Repository Walkthrough
 1) The tabs at the top (Code, Issues, Pull requests...) are for your development use. Code is where all your project files are stored.
 2) "Watch" and "Star" are the social media platform options of GitHub (Follow and Like)
-3) The next section of tabs (Commits, 1 branch, 0 releases, environment, 1 contributor) relate to the activity and history of your repository.
-**Commits** - Like the "Save As" function of Git. This will shows all the saved changes to each file.
-**Branches** - Project development isn't always linear. You can maintain forks or branches of a project if you feel an aspect has changed significantly.
-**Releases** - If your project has reached a major milestone (yay you got published!!) this is where you provide highly-visible major releases for your audience.
+3) The next section of tabs (Commits, 1 branch, 0 releases, environment, 1 contributor) relate to the activity and history of your repository.  
+**Commits** - Like the "Save As" function of Git. This will shows all the saved changes to each file.  
+**Branches** - Project development isn't always linear. You can maintain forks or branches of a project if you feel an aspect has changed significantly.  
+**Releases** - If your project has reached a major milestone (yay you got published!!) this is where you provide highly-visible major releases for your audience.  
 4) Dropdown menu "Branch: master", this is where you can change between the different branches of your project.
 5) Button "New Pull Request", pull requests are how a project gets merged between different development branches. This can occur just for one user (a researcher testing out different development ideas) or between collaborators.
 6) Buttons "Create new file/Upload file/Find File" simplistic file management in the web browser. There are better options we will demonstrate later, but it works all the same.
