@@ -61,8 +61,10 @@ User “Katherine Eaton” 1 changed file our README.md, [+] for additions being
 1. Using your file explorer, create a folder called "writing" in the git repository (same place as the README.md).  
 2. Place a document of some type in there (ex. pdf, txt, etc.) Mine will be an empty Word doc called paper.docx.  
 3. In the desktop client, comment the **commit** “create paper.docx”, commit the change, and push to the origin remote.  
-4. Create folders called "data" and "code" in the git repository".  
+4. Create folder "code" in the git repository.  
 5. Create empty text files "text-analysis.py" and "data-visualization.R" in the "code" folder.  
-6. In the desktop client, comment the  **commit** “added text analysis and viz code”, commit the change, and push to the origin remote.  
-7. View your files on GitHub in the web browser.  
+6. In the desktop client, comment the  **commit** “added text analysis and viz code”, commit the change, and push to the origin remote.  7. Create folder called "data" in the git repository.  
+8. Create empty text files "raw-data.txt" and "processed-data.txt in the "data" folder.  
+9. In the desktop client, comment the  **commit** “added raw and processed data”, commit the change, and push to the origin remote. 
+10. View your files on GitHub in the web browser.  
 
