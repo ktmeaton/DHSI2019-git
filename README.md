@@ -99,3 +99,7 @@ https://www.atlassian.com/git/tutorials/undoing-changes
 7. Check it out!
 
 ## Part 11. Syncing Changes
+1. In the GitHub web browser, navigate to the file data/raw-data.txt and click the small pencil icon to edit it.  
+2. Add the line “Rawdataisn’tsobadright?”  
+3. In the GitHub Desktop client, make sure that “Changes” is the panel that is selected. Click the fetch origin button at the top panel next to “Current repository” and “Current branch”. The main window should pop up saying that “1 commit from the origin remote” is available.  
+4. Click “pull” to fully download that changed file. If you open up code/raw-data.txt on your local computer, you will see that it now also has our new line.  
