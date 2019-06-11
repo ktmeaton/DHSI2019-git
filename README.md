@@ -150,7 +150,7 @@ Github Desktop must perform reverts one by one, and step by step in reverse chro
 git add code/text-analysis.py 
 git commit -m "Works as expected"
 git commit -m "Didn't test this change"
-git commit -m ""This doesn't work anymore"
+git commit -m "This doesn't work anymore"
 git push origin master
 ```
  
