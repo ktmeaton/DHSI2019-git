@@ -98,7 +98,7 @@ https://www.atlassian.com/git/tutorials/undoing-changes
 5. You now have a \_config.yml file in your home directory. Also in Settings under GitHub Pages it will be checkmarked and say “ Your site is published at https://ktmeaton.github.io/DHSI2019-git/”
 7. Check it out!
 
-## Part 11. Syncing Changes
+## Part 11. Syncing Changes (Browser - Desktop)
 1. In the GitHub web browser, navigate to the file data/raw-data.txt and click the small pencil icon to edit it.  
 2. Add the line “Rawdataisn’tsobadright?”  
 3. In the GitHub Desktop client, make sure that “Changes” is the panel that is selected. Click the fetch origin button at the top panel next to “Current repository” and “Current branch”. The main window should pop up saying that “1 commit from the origin remote” is available.  
