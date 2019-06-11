@@ -57,3 +57,12 @@ User “Katherine Eaton” 1 changed file our README.md, [+] for additions being
 4. We’ve committed our change, and now it’s prompting us to “push” this to the “origin remote”, which is git language for “would you like to sync this to the cloud?” Click “push origin”.  
 5. Now if we view on github, the README.md page has the author line we just added.  
 
+## Part 7. Adding Files  
+1. Using your file explorer, create a folder called "writing" in the git repository (same place as the README.md).  
+2. Place a document of some type in there (ex. pdf, txt, etc.) Mine will be an empty Word doc called paper.docx.  
+3. In the desktop client, comment the **commit** “create paper.docx”, commit the change, and push to the origin remote.  
+4. Create folders called "data" and "code" in the git repository".  
+5. Create empty text files "text-analysis.py" and "data-visualization.R" in the "code" folder.  
+6. In the desktop client, comment the  **commit** “added text analysis and viz code”, commit the change, and push to the origin remote.  
+7. View your files on GitHub in the web browser.  
+
