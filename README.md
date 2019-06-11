@@ -38,8 +38,8 @@ Created: 2019-06-10
 2. In the tab panel (same level as "Code"), click on Settings (Gear Icon) and scroll down to "GitHub Pages".
 3. For the Source dropdown menu, select the master branch.
 4. For the website Theme Choose, pick a design layout (ex. Cayman)
-5. You now have a \_config.yml file in your home directory. Also in Settings under GitHub Pages it will be checkmarked and say “ Your site is published at https://ktmeaton.github.io/DHSI2019-git/”
-7. Check it out!
+5. You now have a \_config.yml file in your home directory. Also in Settings under GitHub Pages it will be checkmarked and say “Your site is published at https://ktmeaton.github.io/DHSI2019-git/”
+7. Check it out! By default it is your README.md file. Github Pages are websites powered by Jekyll, checkout the documentation for more options.
 
 ## Part 5. Install the GitHub Desktop Client 
 1. Download GithubDesktopSetup from https://desktop.github.com/  
